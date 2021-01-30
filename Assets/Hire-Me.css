@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color:teal;
+    background-color: rgb(46, 128, 235);
     overflow: hidden;
   }
   
@@ -25,4 +25,22 @@
   .topnav a.active {
     background-color:grey;
     color: white;
+  }
+  .header {
+    padding:60px;
+    text-align:center;
+    color:black;
+    font-size:30px;
+  }
+  .header-image {
+    width:auto;
+    height:350px;
+    background: url("./images/MakeGreat.jpg");
+    background-size: cover;
+  }
+
+  aside {
+    padding:10%;
+    font-size: xx-large;
+    border-right: 1px solid black;
   }
