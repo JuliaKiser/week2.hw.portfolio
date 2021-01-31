@@ -88,6 +88,7 @@
     display:flex;
     flex-wrap: wrap;
     flex: 8;
+    align-content: flex-start;
   }
 
   .Contact {
@@ -115,7 +116,31 @@
   }
 
   .about{
-    height: 60%;
+    height: 50%;
     width: 45%;
     padding: 10px;
+  }
+
+  .unit {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  flex: 0 0 300px;
+  border-radius: initial;
+  box-shadow: 15px 15px 5px #aaaaaa;
+  margin: 10px;
+  background-image: cover;
+  height: 50%;
+  width:200px;
+  }
+
+  .unit img {
+    width:100%;
+    height: 82%;
+    padding:0;
+  }
+  .unit header {
+    text-align: center;
+    font-family:monospace;
+    font-size: 24px;
   }
