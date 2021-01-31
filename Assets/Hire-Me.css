@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgb(46, 128, 235);
+    background-color:black;
     overflow: hidden;
   }
   
@@ -29,18 +29,34 @@
   .header {
     padding:60px;
     text-align:center;
-    color:black;
+    color:white;
     font-size:30px;
   }
   .header-image {
     width:auto;
     height:350px;
-    background: url("./images/MakeGreat.jpg");
+    background: url("./images/colors.jpeg");
     background-size: cover;
+    background-position: 100%;
   }
 
-  aside {
-    padding:10%;
-    font-size: xx-large;
-    border-right: 1px solid black;
+  .Aboutme {
+  
+  }
+
+  .title {
+    float:left;
+    margin-left: 7%;
+    font-size: 50px;
+    border-right:dotted;
+    padding-right:20px;
+  }
+  
+  .content1 {
+    float:right;
+    margin-right:1%;
+    padding:20px;
+    font-size:20px;
+    display:flex;
+    flex-wrap: wrap;
   }
