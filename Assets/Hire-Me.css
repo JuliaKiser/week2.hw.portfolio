@@ -166,7 +166,7 @@
   margin: 10px;
   background-image: cover;
   height: 40%;
-  width:400px;
+  width:200px;
   background-color: grey;
   }
 /* Styles the content within the first box titled unit 1*/
@@ -195,13 +195,13 @@
 
   .unit2 {
     padding: 10px;
-    flex: 0 0 300px;
+    flex: 0 0 250px;
     border-radius: 5%;
     box-shadow: 15px 15px 5px #aaaaaa;
-    margin: 10px;
+    margin: 30px;
     background-image: cover;
-    height: 40%;
-    width:200px;
+    height: 30%;
+    width:250px;
     background-color: grey;
     }
 
@@ -225,13 +225,13 @@
 /* Styles the content within the first box titled Future 1*/
     .Future1 {
       padding: 10px;
-      flex: 0 0 300px;
+      flex: 0 0 250px;
       border-radius: 5%;
       box-shadow: 15px 15px 5px #aaaaaa;
-      margin: 10px;
+      margin: 30px;
       background-image: cover;
-      height: 40%;
-      width:200px;
+      height: 30%;
+      width:250px;
       background-color: grey;
       }
 
@@ -255,13 +255,13 @@
 /* Styles the content within the first box titled Future 2*/
       .Future2 {
         padding: 10px;
-        flex: 0 0 300px;
+        flex: 0 0 250px;
         border-radius: 5%;
         box-shadow: 15px 15px 5px #aaaaaa;
-        margin: 10px;
+        margin: 30px;
         background-image: cover;
-        height: 40%;
-        width:200px;
+        height: 30%;
+        width:250px;
         background-color: grey;
         }
         .Future2:hover {
