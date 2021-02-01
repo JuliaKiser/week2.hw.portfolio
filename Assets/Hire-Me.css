@@ -123,8 +123,15 @@
     margin-left: 7%;
     font-size: 50px;
     border-right:dotted;
-    padding-right:20px;
+    padding-right:135px;
     flex: 3;
+  }
+  .box {
+    flex:3;
+    padding-top:30px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:7%;
   }
   .content3 {
     float:right;
@@ -158,6 +165,10 @@
 
   .unit1:hover {
     background-color:rgb(240, 86, 86);
+  }
+
+  .icon:hover {
+    color:rgb(240, 86, 86);
   }
 
   .unit1 img {
