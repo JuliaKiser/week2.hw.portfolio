@@ -27,12 +27,15 @@
     background-color:grey;
     color: white;
   }
+
+  /* Style the header*/
   .header {
     padding:60px;
     text-align:center;
     color:white;
     font-size:30px;
   }
+  /* Style the header image*/
   .header-image {
     width:auto;
     height:350px;
@@ -40,7 +43,7 @@
     background-size: cover;
     background-position: 100%;
   }
-
+/* Style the body - change background color*/
   body {
   background: linear-gradient(-45deg, #8fcbf3dc, #f88855, #7cf09e, #7899d4, red);
 	background-size: 400% 400%;
@@ -58,6 +61,8 @@
 		background-position: 0% 50%;
 	}
 }
+
+/* Section 1 - Style About Me */
   .Aboutme {
     display:flex;
     align-content: flex-start;
@@ -71,7 +76,7 @@
     padding-right:20px;
     flex: 3;
   }
-  
+  /* Style the box content/header/image for unit 1 class*/
   .content1 {
     float:right;
     margin-right:2%;
@@ -82,12 +87,13 @@
     flex-wrap: wrap;
     flex: 8;
   }
+
   .content1 img {
     width:300px;
     height:300px;
   
   }
-
+/* Style Section 2 - work Section*/
   .Work {
     display:flex;
     align-content: flex-start;
@@ -101,6 +107,7 @@
     padding-right:20px;
     flex: 3;
   }
+  /* Style the box content/header/image for unit 1 class*/
   .content2 {
     float:right;
     margin-right:3%;
@@ -112,7 +119,7 @@
     flex: 8;
     align-content: flex-start;
   }
-
+/* Style Section 2 - work Section*/
   .Contact {
     display:flex;
     align-content: flex-start;
@@ -126,6 +133,7 @@
     padding-right:135px;
     flex: 3;
   }
+  /* create padding/margins around each icon*/
   .box {
     flex:3;
     padding-top:30px;
@@ -151,20 +159,22 @@
   }
 
   .unit1 {
-  border-style: solid;
-  border-width: 3px;
   padding: 10px;
   flex: 0 0 300px;
-  border-radius: initial;
+  border-radius: 5%;
   box-shadow: 15px 15px 5px #aaaaaa;
   margin: 10px;
   background-image: cover;
   height: 50%;
   width:200px;
+  background-color: grey;
   }
-
+/* Styles the content within the first box titled unit 1*/
   .unit1:hover {
     background-color:rgb(240, 86, 86);
+    border-style:solid;
+    border-color: blueviolet;
+    border-width: 10px;
   }
 
   .icon:hover {
@@ -181,22 +191,25 @@
     font-family:monospace;
     font-size: 24px;
   }
+/* Styles the content within the first box titled unit 2*/
 
   .unit2 {
-    border-style: solid;
-    border-width: 3px;
     padding: 10px;
     flex: 0 0 300px;
-    border-radius: initial;
+    border-radius: 5%;
     box-shadow: 15px 15px 5px #aaaaaa;
     margin: 10px;
     background-image: cover;
     height: 50%;
     width:200px;
+    background-color: grey;
     }
 
     .unit2:hover {
       background-color:rgb(240, 86, 86);
+      border-style:solid;
+      border-color: blue;
+      border-width: 10px;
     }
   
     .unit2 img {
@@ -209,22 +222,24 @@
       font-family:monospace;
       font-size: 24px;
     }
-
+/* Styles the content within the first box titled Future 1*/
     .Future1 {
-      border-style: solid;
-      border-width: 3px;
       padding: 10px;
       flex: 0 0 300px;
-      border-radius: initial;
+      border-radius: 5%;
       box-shadow: 15px 15px 5px #aaaaaa;
       margin: 10px;
       background-image: cover;
       height: 50%;
       width:200px;
+      background-color: grey;
       }
 
       .Future1:hover {
         background-color:rgb(240, 86, 86);
+        border-style:solid;
+        border-color: green;
+        border-width: 10px;
       }
     
       .Future1 img {
@@ -237,20 +252,23 @@
         font-family:monospace;
         font-size: 24px;
       }
-
+/* Styles the content within the first box titled Future 2*/
       .Future2 {
-        border-style: solid;
-        border-width: 3px;
         padding: 10px;
         flex: 0 0 300px;
-        border-radius: initial;
+        border-radius: 5%;
         box-shadow: 15px 15px 5px #aaaaaa;
         margin: 10px;
         background-image: cover;
         height: 50%;
+        width:200px;
+        background-color: grey;
         }
         .Future2:hover {
           background-color:rgb(240, 86, 86);
+          border-style:solid; 
+          border-color: rgba(238, 67, 67, 0.918);
+          border-width: 10px;
         }
         .Future2 img {
           width:100%;
@@ -262,7 +280,14 @@
           font-family:monospace;
           font-size: 24px;
         }
-
+/* Styles the content within the footer*/
+        footer {
+          text-align:center;
+          padding-top:30px;
+          font-weight: 600;
+          font-family: cursive;
+        }
+/* Styles overall content based on screen size - this assist in making your page mobile responsive*/
         @media screen and (max-width: 992px) {
           
         }

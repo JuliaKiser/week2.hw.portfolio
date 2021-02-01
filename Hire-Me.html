@@ -3,28 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Julia-Portfolio</title>
+<!--Creates link to FontAwesome Icon images-->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<!--Link your CSS file-->
     <link rel="stylesheet" href="./assets/Hire-Me.css"/>
 </head>
 <body>
+<!--Top Navigation Bar and Links-->
     <div class="topnav">
         <a class="active" href="./index.html">Home</a>
         <a href="#Contact">Contact Me</a>
         <a href="#Work">Work</a>
         <a href="#AboutME">About Me</a>
       </div>
+<!--Create Header with Image and Overlapping Words-->
     <div class="header-image">
       <div class="header">
           <p>"We may encounter many defeats but we must not be defeated." -Maya Angelou</p>
       </div>
     </div>
-
+<!--Section 1 -Insert About Me - Create FlexGrid System-->
     <section class="Aboutme flex-grid" id="AboutME">
+<!--Insert ID to link Top Navigation-->
         <h1 class="col title">About Me</h1>
         <p class="col content1">
+<!--Portfolio Image Insert-->
           <img src="./assets/images/Julia.jpg">
           <br>
+<!--Create Bio - multiple paragraphs-->
           My name is Julia Kiser and I am working to become a full stack web developer. I am currently enrolled in the Part-Time Coding Bootcamp through the University of North Carolina-Charlotte. 
           While working to obtain my certification in web development, I work full-time for BAE Systems, Inc as a time collections specialist. 
           I have a passion for learning and I am excited to continue to grow and develop my skills in this class so that I can make a career change and work full time as a web developer.
@@ -38,35 +45,43 @@
           <br>
         </p>
     </section>
-
+<!--Section 2 - Insert Work - Create FlexGrid to contain multiple boxes-->
     <section class="Work flex-grid" id="Work">
+<!--Insert ID to link Top Navigation-->
       <h1 class="col title2">Work</h1>
         <div class="col content2">
           <section class="unit1">
             <header><a href="https://juliakiser.github.io/HoriseonRefactoring/">Unit 1 Homework</a></header>
+<!--Create Link to Assignment/Project Work-->
             <img class="about" src="./assets/images/Horiseon.png">
           </section>
           <section class="unit2">
             <header><a href="https://juliakiser.github.io/week2.hw.portfolio/">Unit 2 Homework</a></header>
+<!--Create Link to Assignment/Project Work-->
             <img class="about" src="assets/images/Unit2.png">
           </section>
           <section class="Future1">
             <header>Future Project</header>
-            <img class="about" src="./assets/images/color.jpeg">
+<!--Create Link to Assignment/Project Work-If you do not have enough, create placeholder-->
+            <img class="about" src="./assets/images/Future1.jpg">
           </section>
           <section class="Future2">
             <header>Future Project</header>
-            <img class="about" src="assets/images/color.jpeg">
+<!--Create Link to Assignment/Project Work-If you do not have enough, create placeholder-->
+            <img class="about" src="assets/images/Future2.jpg">
           </section>
       </div>
         
   </section>
-
+<!--Section 3 - Contact Section-->
   <section class="Contact flex-grid" id="Contact">
+<!--Insert ID to link Top Navigation-->
     <h1 class="col title3">Contact</h1>
       <div class="col box">
         <div class="icon">
+<!--Select Icon from FontAwesome Link-->
           <i class='fas fa-home' style='font-size:48px'></i>
+<!--Insert Address information-->
           <h4>Address</h4>
           <h4>8083 Regent Park Lane</h4>
           <h4>Charlotte, NC 28210</h4>
@@ -74,14 +89,18 @@
       </div>
       <div class="col box">
         <div class="icon">
+<!--Select Icon from FontAwesome Link-->
           <i class="fas fa-mobile-alt" style='font-size:48px'></i>
+<!--Insert Mobile information-->
           <h4>Mobile</h4>
           <h4>704.299.7783</h4>
         </div>
       </div>
       <div class="col box">
         <div class="icon">
+<!--Select Icon from FontAwesome Link-->
           <i class="fas fa-envelope-open-text" style='font-size:48px'></i>
+<!--Insert Email Information-->
           <h4>Email</h4>
           <h4>jdkiser228@gmail.com</h4>
         </div>
@@ -89,4 +108,7 @@
    
 </section>
 </body>
+<footer>
+  Made by Julia Kiser
+</footer>
 </html>
