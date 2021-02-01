@@ -45,7 +45,7 @@
   }
 /* Style the body - change background color*/
   body {
-  background: linear-gradient(-45deg, #8fcbf3dc, #f88855, #7cf09e, #7899d4, red);
+  background: linear-gradient(-45deg, #1629ccdc, #1c86e9, #d5fc48, rgb(238, 92, 7), rgb(236, 7, 7)),yellow;
 	background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -287,19 +287,3 @@
           font-weight: 600;
           font-family: cursive;
         }
-/* Styles overall content based on screen size - this assist in making your page mobile responsive*/
-    /*   
-        @media screen and (max-width: 992px) {
-          
-        }
-        
-        /* Large smartphones */
-        @ media screen and (max-width: 768px) {
-  
-          }
-        }
-        
-        /* Small smartphones */
-        @ media screen and (max-width: 576px) {
-
-          }/*
