@@ -2,14 +2,18 @@
 Homework Assignment for Unit 2 -Advanced CSS
 
 ## Deployed Link
-Insert Link
-
+https://juliakiser.github.io/week2.hw.portfolio/
 
 
 ## Project Description
 
-Insert Info
+The goal of this unit was to put your CSS skills to work with a strong emphasis on using flex. It will challenge you!
 
+For my project I really focused on creating something for the future as we gain more skills and to really expand my portfolio. We were given an image to replicate creating multiple sections and content within each section. 
+
+I created 3 sections About, Work, and Contact and then units within each. At the end it should look like the image provided with flex, hover features and make your page responsive. 
+
+Click 'Hire Me' and enter my page!!
 
 ![](assets/images/Unit2.png)
 
@@ -35,7 +39,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Helpful Hints
 
+Visit FlexFrogger and practice using flex 
 
+Create your table/boxes prior to putting in content
 
 ## Resources
 https://www.w3schools.com/TAGS/default.ASP

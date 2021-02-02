@@ -65,7 +65,9 @@
 /* Section 1 - Style About Me */
   .Aboutme {
     display:flex;
-    align-content: flex-start;
+    width:100%;
+    min-height:800px;
+    flex-direction:row;
   }
 
   .title {
@@ -123,6 +125,7 @@
   .Contact {
     display:flex;
     align-content: flex-start;
+    padding-top: 30%;
   }
 
   .title3 {
@@ -287,23 +290,11 @@
           font-weight: 600;
           font-family: cursive;
         }
-@media only screen and (max-width: 600px) {
-  .Aboutme .Work {
-    min-width: auto;
-    flex-basis:auto;
-  }
-}
-  @media only screen and (max-width: 600px) {
+
+  @media screen and (max-width: 600px) {
     .header-image .topnav {
       min-width:auto;
       flex-basis:auto;
       position: fixed;
     }
-}
-@media only screen and (max-width: 600px) {
-  .Contact {
-    min-width:auto;
-    flex-direction: column;
-    margin-top: 600px;
-  }
 }
