@@ -330,9 +330,16 @@
   }
 }
 @media screen and (max-width: 1052px) {
-  .unit1 .unit1Img{
-    display:flex;
-    width:fit-content;
-    height:fit-content;
+  .unit1 {
+    padding: 10px;
+    flex: 0 0 250px;
+    border-radius: 5%;
+    box-shadow: 15px 15px 5px #aaaaaa;
+    margin: 30px;
+    background-image: cover;
+    height: 30%;
+    width:250px;
+    background-color: grey;
+    
   }
 }
